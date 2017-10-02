@@ -1,0 +1,30 @@
+@import "@material/rtl/mixins";
+@import "@material/toolbar/variables";
+@import "../toolbar/variables";
+
+@mixin mk-drawer-toolbar-spacer_() {
+  &__toolbar-spacer {
+    @include mdc-theme-dark(quote(#{&})) {
+      border-bottom: 1px solid rgba(255, 255, 255, .12);
+    }
+
+    &--custom-height {
+      height: $mk-toolbar-row-height;
+      border-bottom: 1px solid rgba(0, 0, 0, .12);
+
+      // TODO: refactor this out when #23 is implemented
+      @media (max-width: $mdc-toolbar-mobile-landscape-width-breakpoint) and (orientation: landscape) {
+        height: $mk-toolbar-mobile-landscape-row-height;
+      }
+
+      // TODO: refactor this out when #23 is implemented
+      @media (max-width: $mdc-toolbar-mobile-breakpoint) {
+        height: $mk-toolbar-mobile-row-height;
+      }
+    }
+  }
+}
+
+@mixin mk-drawer-base_() {
+  @include mk-drawer-toolbar-spacer_;
+}

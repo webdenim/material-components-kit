@@ -1,0 +1,25 @@
+@import "@material/drawer/temporary/mdc-temporary-drawer";
+@import "../../elevation/mixins";
+@import "../../theme/variables";
+@import "../../toolbar/variables";
+@import "../mixins";
+
+// stylelint-disable selector-class-pattern
+.mdc-temporary-drawer {
+  @include mk-drawer-base_;
+
+  // Shaded background
+  &::before {
+    background-color: rgba($mk-theme-black, .48);
+  }
+
+  &__drawer {
+    @include mk-elevation(16);
+
+    @include mdc-theme-dark(".mdc-temporary-drawer") {
+      @include mdc-theme-prop(color, text-primary-on-dark);
+
+      background-color: $mk-theme-black;
+    }
+  }
+}

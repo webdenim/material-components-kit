@@ -1,0 +1,7 @@
+@import "@material/drawer/permanent/mdc-permanent-drawer";
+@import "../mixins";
+
+// stylelint-disable selector-class-pattern
+.mdc-permanent-drawer {
+  @include mk-drawer-base_;
+}
