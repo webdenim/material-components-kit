@@ -1,0 +1,112 @@
+@import "@material/toolbar/mdc-toolbar";
+@import "../elevation/mixins";
+@import "./mixins";
+@import "./variables";
+
+/* stylelint-disable selector-class-pattern */
+// TODO: Current implementation applies styles toolbar
+// while right way is to apply style to toolbar rows
+.mdc-toolbar {
+  // Toolbar with custom height
+
+  /*
+  min-height: $mk-toolbar-row-height;
+
+  // TODO: refactor this out when #23 is implemented
+  @media (max-width: $mdc-toolbar-mobile-landscape-width-breakpoint)
+    and (orientation: landscape) {
+    min-height: $mk-toolbar-mobile-landscape-row-height;
+  }
+
+  // TODO: refactor this out when #23 is implemented
+  @media (max-width: $mdc-toolbar-mobile-breakpoint) {
+    min-height: $mk-toolbar-mobile-row-height;
+  }
+  */
+
+  &__row--custom-height {
+    min-height: $mk-toolbar-row-height;
+
+    // TODO: refactor this out when #23 is implemented
+    @media (max-width: $mdc-toolbar-mobile-landscape-width-breakpoint) and (orientation: landscape) {
+      min-height: $mk-toolbar-mobile-landscape-row-height;
+    }
+
+    // TODO: refactor this out when #23 is implemented
+    @media (max-width: $mdc-toolbar-mobile-breakpoint) {
+      min-height: $mk-toolbar-mobile-row-height;
+    }
+  }
+
+  &__title {
+    @include mk-toolbar-element-vertical-padding;
+  }
+
+  &__icon {
+    @include mk-toolbar-element-vertical-padding;
+  }
+
+  &__icon--menu {
+    @include mk-toolbar-element-vertical-padding;
+  }
+
+  // Toolbar with dark background
+  &__row--theme-dark {
+    @include mdc-theme-prop(color, text-primary-on-primary-dark);
+
+    .mdc-toolbar__icon {
+      @include mdc-theme-prop(color, text-primary-on-primary-dark);
+    }
+
+    .mdc-toolbar__icon--menu {
+      @include mdc-theme-prop(color, text-primary-on-primary-dark);
+    }
+  }
+
+  // Toolbar with light background
+  &__row--theme-light {
+    @include mdc-theme-prop(color, text-primary-on-light);
+
+    background-color: #fff;
+
+    .mdc-toolbar__icon {
+      @include mdc-theme-prop(color, text-primary-on-light);
+    }
+
+    .mdc-toolbar__icon--menu {
+      @include mdc-theme-prop(color, text-primary-on-light);
+    }
+  }
+
+  &__section {
+    // Temporary fix for elements aligned incorrectly on Firefox and IE
+    // https://github.com/material-components/material-components-web/issues/845
+    align-items: center;
+  }
+
+  // Temporary fix for toolbar-nav lacking of space
+  &__section--align-end {
+    flex: unset;
+  }
+}
+
+.mdc-toolbar--fixed {
+  @include mk-elevation(4);
+}
+
+.mdc-toolbar-fixed-adjust {
+  &--custom-height {
+
+    // TODO: refactor this out when #23 is implemented
+    @media (max-width: $mdc-toolbar-mobile-landscape-width-breakpoint) and (orientation: landscape) {
+      margin-top: $mk-toolbar-mobile-landscape-row-height;
+    }
+
+    // TODO: refactor this out when #23 is implemented
+    @media (max-width: $mdc-toolbar-mobile-breakpoint) {
+      margin-top: $mk-toolbar-mobile-row-height;
+    }
+
+    margin-top: $mk-toolbar-row-height;
+  }
+}
