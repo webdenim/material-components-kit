@@ -1,0 +1,8 @@
+@import "@material/elevation/mdc-elevation";
+@import "./mixins";
+
+@for $z-value from 0 through 24 {
+  .mdc-elevation--z#{$z-value} {
+    @include mk-elevation($z-value);
+  }
+}

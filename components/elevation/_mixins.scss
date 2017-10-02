@@ -1,0 +1,14 @@
+@import "@material/elevation/mixins";
+@import "./variables";
+
+@mixin mk-elevation($z-value) {
+  @if type-of($z-value) != number or not unitless($z-value) {
+    @error "$z-value must be a unitless number";
+  }
+
+  @if $z-value < 0 or $z-value > 24 {
+    @error "$z-value must be between 0 and 24";
+  }
+
+  #{$mdc-elevation-property}: #{"#{map-get($mdc-elevation-umbra-map, $z-value)} #{$mk-elevation-umbra-color}"}, #{"#{map-get($mdc-elevation-penumbra-map, $z-value)} #{$mk-elevation-penumbra-color}"}, #{map-get($mdc-elevation-ambient-map, $z-value)} $mk-elevation-ambient-color;
+}
