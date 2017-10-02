@@ -3,27 +3,9 @@
 @import "./mixins";
 @import "./variables";
 
-/* stylelint-disable selector-class-pattern */
-// TODO: Current implementation applies styles toolbar
-// while right way is to apply style to toolbar rows
+// stylelint-disable selector-class-pattern
 .mdc-toolbar {
   // Toolbar with custom height
-
-  /*
-  min-height: $mk-toolbar-row-height;
-
-  // TODO: refactor this out when #23 is implemented
-  @media (max-width: $mdc-toolbar-mobile-landscape-width-breakpoint)
-    and (orientation: landscape) {
-    min-height: $mk-toolbar-mobile-landscape-row-height;
-  }
-
-  // TODO: refactor this out when #23 is implemented
-  @media (max-width: $mdc-toolbar-mobile-breakpoint) {
-    min-height: $mk-toolbar-mobile-row-height;
-  }
-  */
-
   &__row--custom-height {
     min-height: $mk-toolbar-row-height;
 
@@ -36,18 +18,6 @@
     @media (max-width: $mdc-toolbar-mobile-breakpoint) {
       min-height: $mk-toolbar-mobile-row-height;
     }
-  }
-
-  &__title {
-    @include mk-toolbar-element-vertical-padding;
-  }
-
-  &__icon {
-    @include mk-toolbar-element-vertical-padding;
-  }
-
-  &__icon--menu {
-    @include mk-toolbar-element-vertical-padding;
   }
 
   // Toolbar with dark background
@@ -82,11 +52,23 @@
     // Temporary fix for elements aligned incorrectly on Firefox and IE
     // https://github.com/material-components/material-components-web/issues/845
     align-items: center;
+
+    // Temporary fix for toolbar-nav lacking of space
+    &--align-end {
+      flex: unset;
+    }
   }
 
-  // Temporary fix for toolbar-nav lacking of space
-  &__section--align-end {
-    flex: unset;
+  &__title {
+    @include mk-toolbar-element-vertical-padding;
+  }
+
+  &__icon {
+    @include mk-toolbar-element-vertical-padding;
+  }
+
+  &__icon--menu {
+    @include mk-toolbar-element-vertical-padding;
   }
 }
 
