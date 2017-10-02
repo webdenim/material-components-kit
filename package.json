@@ -1,0 +1,46 @@
+{
+  "name": "@material-kit/lib",
+  "version": "0.1.0",
+  "description": "An SCSS library built on top of Material Components for the Web",
+  "keywords": [
+    "material",
+    "material-design",
+    "material-components",
+    "web",
+    "css",
+    "scss"
+  ],
+  "homepage": "https://github.com/material-kit/material-kit",
+  "bugs": {
+    "url": "https://github.com/material-kit/material-kit/issues"
+  },
+  "license": "MIT",
+  "author": "Webdenim",
+  "files": [
+    "components/**/*.scss"
+  ],
+  "main": "material-kit.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/material-kit/material-kit.git"
+  },
+  "scripts": {
+    "dev": "cd ./docs && npm start",
+    "fix": "stylelint --fix components/**/*.scss",
+    "lint": "stylelint components/**/*.scss",
+    "pretest": "npm run lint",
+    "release": "standard-version --tag-prefix",
+    "start": "npm run dev",
+    "test": "echo TODO: make tests"
+  },
+  "devDependencies": {
+    "standard-version": "^4.2.0",
+    "stylelint-config-material-kit": "^0.1.4"
+  },
+  "dependencies": {
+    "material-components-web": "^0.21.1"
+  },
+  "peerDependencies": {
+    "material-components-web": "^0.21.1"
+  }
+}

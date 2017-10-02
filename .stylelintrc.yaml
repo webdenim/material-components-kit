@@ -1,0 +1,4 @@
+extends: stylelint-config-material-kit
+ignoreFiles:
+  - node_modules/**/*
+  - dist/**/*
