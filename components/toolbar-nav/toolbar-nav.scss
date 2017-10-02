@@ -1,0 +1,131 @@
+@import "@material/rtl/mixins";
+@import "@material/theme/mixins";
+@import "@material/toolbar/variables";
+@import "@material/typography/mixins";
+@import "@material/typography/variables";
+@import "../toolbar/variables";
+
+.mk-toolbar-nav {
+
+  // TODO: refactor this out when #23 is implemented
+  @media (max-width: $mdc-toolbar-mobile-landscape-width-breakpoint) and (orientation: landscape) {
+    height: $mdc-toolbar-mobile-landscape-row-height;
+    overflow-x: auto;
+  }
+
+  // TODO: refactor this out when #23 is implemented
+  @media (max-width: $mdc-toolbar-mobile-breakpoint) {
+    height: $mdc-toolbar-mobile-row-height;
+    overflow-x: auto;
+  }
+
+  @at-root .mdc-toolbar__title + .mk-toolbar-nav {
+    @include mdc-rtl-reflexive-box(margin, left, 20px);
+  }
+
+  display: flex;
+  align-items: center;
+  height: $mdc-toolbar-row-height;
+
+  &__tabs {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    // Tabs with uppercase text
+    &--text-uppercase {
+      .mk-toolbar-nav__tab {
+        text-transform: uppercase;
+      }
+    }
+
+    // stylelint-disable selector-max-type
+    > li {
+      display: inline-block;
+    }
+  }
+
+  &__tab {
+    @include mdc-typography(body1);
+    @include mdc-theme-prop(color, text-secondary-on-primary);
+
+    @media (max-width: 600px) {
+      padding: 0 12px;
+    }
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 24px;
+    transition: color .2s ease-out;
+
+    &:hover {
+      @include mdc-theme-prop(color, text-primary-on-primary);
+    }
+
+    &--active {
+      @include mdc-theme-prop(color, text-primary-on-primary);
+
+      // stylelint-disable font-weight-notation
+      font-weight: map-get($mdc-typography-font-weight-values, medium);
+      box-shadow: inset 0 -2px;
+    }
+  }
+}
+
+// stylelint-disable selector-class-pattern
+// Toolbar with dark theme
+.mdc-toolbar__row--theme-dark {
+  .mk-toolbar-nav {
+    &__tab {
+      color: map-get($mdc-theme-property-values, text-secondary-on-primary-dark);
+
+      &:hover {
+        color: map-get($mdc-theme-property-values, text-primary-on-primary-dark);
+      }
+
+      &--active {
+        color: map-get($mdc-theme-property-values, text-primary-on-primary-dark);
+      }
+    }
+  }
+}
+
+// Toolbar with light theme
+.mdc-toolbar__row--theme-light {
+  .mk-toolbar-nav {
+    &__tab {
+      color: map-get($mdc-theme-property-values, text-secondary-on-light);
+
+      &:hover {
+        color: map-get($mdc-theme-property-values, text-primary-on-light);
+      }
+
+      &--active {
+        color: map-get($mdc-theme-property-values, text-primary-on-light);
+        box-shadow: inset 0 -2px darken($mdc-theme-primary, 12%);
+      }
+    }
+  }
+}
+
+// Nav in toolbar-row with custom height
+.mdc-toolbar__row--custom-height {
+  .mk-toolbar-nav {
+
+    // TODO: refactor this out when #23 is implemented
+    @media (max-width: $mdc-toolbar-mobile-landscape-width-breakpoint) and (orientation: landscape) {
+      height: $mk-toolbar-mobile-landscape-row-height;
+    }
+
+    // TODO: refactor this out when #23 is implemented
+    @media (max-width: $mdc-toolbar-mobile-breakpoint) {
+      height: $mk-toolbar-mobile-row-height;
+    }
+
+    height: $mk-toolbar-row-height;
+  }
+}
