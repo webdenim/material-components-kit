@@ -1,13 +1,7 @@
 @import "@material/button/mdc-button";
-@import "../theme/variables";
 @import "./variables";
 
 // stylelint-disable selector-class-pattern
 .mdc-button {
   border-radius: $mk-button-radius;
-
-  &--raised:not(:disabled),
-  &--unelevated:not(:disabled) {
-    background-color: $mk-theme-black;
-  }
 }
