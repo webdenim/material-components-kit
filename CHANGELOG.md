@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.5"></a>
+## [0.1.5](https://github.com/material-kit/material-kit/compare/0.1.4...0.1.5) (2017-10-05)
+
+
+### Bug Fixes
+
+* **button:** fix raised and unelevated buttons theming ([4590dda](https://github.com/material-kit/material-kit/commit/4590dda))
+
+
+
 <a name="0.1.4"></a>
 ## [0.1.4](https://github.com/material-kit/material-kit/compare/0.1.3...0.1.4) (2017-10-04)
 
