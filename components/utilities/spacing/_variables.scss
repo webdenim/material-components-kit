@@ -1,0 +1,23 @@
+$mk-responsive-gap: (
+  desktop: (
+    xs: 8px,
+    sm: 16px,
+    md: 24px,
+    lg: 60px,
+    xl: 96px
+  ),
+  tablet: (
+    xs: 4px,
+    sm: 8px,
+    md: 16px,
+    lg: 32px,
+    xl: 64px
+  ),
+  phone: (
+    xs: 4px,
+    sm: 8px,
+    md: 16px,
+    lg: 32px,
+    xl: 64px
+  )
+) !default;

@@ -1,0 +1,64 @@
+@import "@material/layout-grid/mixins";
+@import "@material/layout-grid/variables";
+@import "@material/rtl/mixins";
+@import "./variables";
+
+@each $size in map-keys($mk-responsive-gap) {
+  @each $key in map-keys(map-get($mk-responsive-gap, $size)) {
+    .mk-pb--#{$key} {
+      @include mdc-layout-grid-media-query_($size) {
+        padding-bottom: map-get(map-get($mk-responsive-gap, $size), $key);
+      }
+    }
+  }
+}
+
+@each $size in map-keys($mk-responsive-gap) {
+  @each $key in map-keys(map-get($mk-responsive-gap, $size)) {
+    @each $prop, $abbr in (margin: m, padding: p) {
+      // Top and bottom
+      .mk-#{$abbr}x--#{$key} {
+        @include mdc-layout-grid-media-query_($size) {
+          #{$prop}-right: map-get(map-get($mk-responsive-gap, $size), $key);
+          #{$prop}-left: map-get(map-get($mk-responsive-gap, $size), $key);
+        }
+      }
+
+      // Start and end
+      .mk-#{$abbr}y--#{$key} {
+        @include mdc-layout-grid-media-query_($size) {
+          #{$prop}-top: map-get(map-get($mk-responsive-gap, $size), $key);
+          #{$prop}-bottom: map-get(map-get($mk-responsive-gap, $size), $key);
+        }
+      }
+
+      // Top
+      .mk-#{$abbr}t--#{$key} {
+        @include mdc-layout-grid-media-query_($size) {
+          #{$prop}-top: map-get(map-get($mk-responsive-gap, $size), $key);
+        }
+      }
+
+      // Bottom
+      .mk-#{$abbr}b--#{$key} {
+        @include mdc-layout-grid-media-query_($size) {
+          #{$prop}-bottom: map-get(map-get($mk-responsive-gap, $size), $key);
+        }
+      }
+
+      // Start
+      .mk-#{$abbr}s--#{$key} {
+        @include mdc-layout-grid-media-query_($size) {
+          @include mdc-rtl-reflexive-box(#{$prop}, left, map-get(map-get($mk-responsive-gap, $size), $key));
+        }
+      }
+
+      // End
+      .mk-#{$abbr}e--#{$key} {
+        @include mdc-layout-grid-media-query_($size) {
+          @include mdc-rtl-reflexive-box(#{$prop}, right, map-get(map-get($mk-responsive-gap, $size), $key));
+        }
+      }
+    }
+  }
+}
