@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.0"></a>
+# [0.2.0](https://github.com/webdenim/material-kit/compare/0.1.5...0.2.0) (2017-10-19)
+
+
+### Features
+
+* **utilities:** add initial implementation of the utilities ([2a0d770](https://github.com/webdenim/material-kit/commit/2a0d770))
+
+
+
 <a name="0.1.5"></a>
 ## [0.1.5](https://github.com/material-kit/material-kit/compare/0.1.4...0.1.5) (2017-10-05)
 
