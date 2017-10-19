@@ -11,9 +11,9 @@
     "css",
     "scss"
   ],
-  "homepage": "https://github.com/material-kit/material-kit",
+  "homepage": "https://github.com/webdenim/material-kit",
   "bugs": {
-    "url": "https://github.com/material-kit/material-kit/issues"
+    "url": "https://github.com/webdenim/material-kit/issues"
   },
   "license": "MIT",
   "author": "Webdenim",
@@ -23,7 +23,7 @@
   "main": "material-kit.scss",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/material-kit/material-kit.git"
+    "url": "git+https://github.com/webdenim/material-kit.git"
   },
   "scripts": {
     "dev": "cd ./docs && npm start",
