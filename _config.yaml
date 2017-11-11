@@ -1,0 +1,60 @@
+# Site settings
+title: Material Kit
+description: Material Kit is an SCSS library that complements MDC-Web with useful components and utilities.
+url: https://www.webdenim.io/material-kit
+publisher: Webdenim
+publisher_logo: https://static.webdenim.io/images/webdenim/logo-200x200.png
+author: Rustem Gareev
+
+# Social links
+facebook_username: webdenimio
+github_username:  webdenim
+twitter_username: webdenim
+codepen_url: https://codepen.io/collection/AKaybW/
+mdc_url: https://material.io/components/web/
+mdg_url: https://material.io/guidelines/
+repo_url: https://github.com/webdenim/material-kit
+share_image_url: https://static.webdenim.io/images/webdenim/share-1200x630.jpg
+static_assets_url: https://static.webdenim.io/images/webdenim
+
+# Web analytics
+facebook_app_id: 109858536375082
+google_analytics:
+ya_metrika:
+
+# Build settings
+markdown: kramdown
+kramdown:
+  auto_ids: true
+incremental: true
+
+# Plugins
+plugins:
+  - jekyll-tidy
+jekyll_tidy:
+  compress_html: false
+
+exclude:
+  - CHANGELOG.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - docsite.config.js
+  - webpack.config.js
+  - "*.scss"
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Dev Server
+port:           9000
