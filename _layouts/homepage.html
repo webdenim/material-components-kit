@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html class="mdc-typography" lang="en">
+  {% include head.html %}
+  <body class="docsite-page docsite-page--homepage mdc-typography--body1">
+    {% include toolbar.html %}
+    <div class="docsite-page__content">
+      {% include drawer.html %}
+      <article class="docsite-page__article">
+        {{ content }}
+      </article>
+    </div>
+    {% include footer.html %}
+    {% include scripts.html %}
+  </body>
+</html>

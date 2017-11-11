@@ -1,1 +1,5 @@
-docs/
+# Jekyll-generated files
+_site
+assets
+.sass-cache
+.jekyll-metadata

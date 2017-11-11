@@ -61,15 +61,29 @@
 
   &__title {
     @include mk-toolbar-element-vertical-padding;
+
+    &--custom {
+      font-family: "Roboto Mono";
+      font-size: 1rem;
+      letter-spacing: .0625rem;
+      text-transform: uppercase;
+    }
   }
 
   &__icon {
     @include mk-toolbar-element-vertical-padding;
   }
 
-  &__icon--menu {
+  &__menu-icon {
     @include mk-toolbar-element-vertical-padding;
+
+    color: inherit;
   }
+}
+
+// stylelint-disable selector-max-type,selector-no-qualifying-type
+a.mdc-toolbar__title {
+  color: inherit;
 }
 
 .mdc-toolbar--fixed {

@@ -1,0 +1,114 @@
+// stylelint-disable scss/at-import-no-partial-leading-underscore
+// stylelint-disable selector-max-type
+@import "@material/layout-grid/mixins";
+@import "@material/layout-grid/variables";
+@import "@material/theme/mixins";
+@import "@material/typography/mixins";
+@import "@material/typography/variables";
+@import "reset-css/_reset";
+
+$mk-reset-margin: 1rem !default;
+
+body {
+  @include mdc-theme-prop(background-color, background);
+  @include mdc-theme-prop(color, text-primary-on-background);
+}
+
+// Do not apply color to MDC / Material Kit components' links
+a:not([class*="mdc-"]):not([class*="mk-"]) {
+  @include mdc-theme-prop(color, primary-dark);
+
+  @include mdc-theme-dark {
+    @include mdc-theme-prop(color, primary);
+  }
+}
+
+b,
+strong {
+  // stylelint-disable font-weight-notation
+  font-weight: map-get($mdc-typography-font-weight-values, bold);
+}
+
+em {
+  font-style: italic;
+}
+
+// Typography reset
+h1 {
+  @include mdc-typography(headline);
+
+  margin-bottom: $mk-reset-margin;
+}
+
+h2 {
+  @include mdc-typography(title);
+
+  margin-bottom: $mk-reset-margin;
+}
+
+h3 {
+  @include mdc-typography(subheading2);
+
+  margin-bottom: $mk-reset-margin;
+}
+
+h4 {
+  @include mdc-typography(subheading1);
+
+  margin-bottom: $mk-reset-margin;
+}
+
+h5 {
+  @include mdc-typography(body2);
+
+  margin-bottom: $mk-reset-margin;
+}
+
+h6 {
+  @include mdc-typography(body1);
+
+  margin-bottom: $mk-reset-margin;
+}
+
+p {
+  margin-bottom: $mk-reset-margin;
+}
+
+ul,
+ol,
+dl {
+  margin-bottom: $mk-reset-margin;
+}
+
+blockquote {
+  margin-bottom: $mk-reset-margin;
+}
+
+pre {
+  margin-bottom: $mk-reset-margin;
+}
+
+code {
+  margin-bottom: $mk-reset-margin;
+}
+
+figure {
+  margin-bottom: $mk-reset-margin;
+}
+
+table {
+  margin-bottom: $mk-reset-margin;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  margin: $mk-reset-margin 0;
+  padding: 0;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, .12);
+
+  @include mdc-theme-dark {
+    border-top: 1px solid rgba(255, 255, 255, .12);
+  }
+}

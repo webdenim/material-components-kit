@@ -1,0 +1,4 @@
+{%- assign url = site.url | append: page.url | cgi_escape -%}
+<iframe src="https://www.facebook.com/plugins/like.php?href={{ url }}&width=51&height=20&layout=button&action=like&size=small&show_faces=false&share=false&appId={{ site.facebook_app_id }}" width="51" height="20" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+<iframe src="https://www.facebook.com/plugins/share_button.php?href={{ url }}&layout=button&size=small&mobile_iframe=true&appId={{ site.facebook_app_id }}&width=59&height=20" width="59" height="20" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+<div class="g-plus" data-action="share" data-height="20"></div>

@@ -1,0 +1,38 @@
+{% for section in site.data.nav %}
+  <li class="docsite-drawer-nav__item">
+    {% assign nav_item_href = site.url | append: section.url %}
+    {% assign nav_item_selected = nil %}
+    {% assign section_slug = section.title | slugify %}
+    {% if section.url == page.url %}
+    {% assign nav_item_selected = " mdc-persistent-drawer--selected" %}
+    {% endif %}
+    <a href="{{ nav_item_href }}"
+       class="mdc-list-item{{ nav_item_selected }}"
+       data-on="click,auxclick,contextmenu"
+       data-region="Drawer nav">
+      {{ section.title }}
+    </a>
+
+    {% assign nav_section_expanded = nil %}
+    {% if page.section == section_slug %}
+    {% assign nav_section_expanded = " docsite-drawer-nav__section--expanded" %}
+    {% endif %}
+    <ul class="docsite-drawer-nav__section{{ nav_section_expanded }}">
+      {% for detail in section.pages %}
+        {% assign nav_item_href = site.url | append: detail.url %}
+        {% assign nav_item_selected = nil %}
+        {% if detail.url == page.url %}
+        {% assign nav_item_selected = " mdc-persistent-drawer--selected" %}
+        {% endif %}
+        <li>
+          <a href="{{ nav_item_href }}"
+             class="mdc-list-item{{ nav_item_selected }}"
+             data-on="click,auxclick,contextmenu"
+             data-region="Drawer nav">
+            {{ detail.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </li>
+{% endfor %}

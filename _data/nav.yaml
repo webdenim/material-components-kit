@@ -1,0 +1,79 @@
+- title: Getting started
+  url: /getting-started/
+  pages:
+    - title: Introduction
+      url: /introduction/
+    - title: Installation
+      url: /installation/
+    - title: Usage
+      url: /usage/
+- title: Components
+  url: /components/
+  pages:
+    - title: Button
+      url: /components/button/
+    - title: Card
+      url: /components/card/
+    - title: Checkbox
+      url: /components/checkbox/
+    - title: Dialog
+      url: /components/dialog/
+    - title: Drawer
+      url: /components/drawer/
+    - title: Elevation
+      url: /components/elevation/
+    - title: FAB
+      url: /components/fab/
+    - title: Form Field
+      url: /components/form-field/
+    - title: Grid List
+      url: /components/grid-list/
+    - title: Icon Toggle
+      url: /components/icon-toggle/
+    - title: Layout Grid
+      url: /components/layout-grid/
+    - title: Linear Progress
+      url: /components/linear-progress/
+    - title: List
+      url: /components/list/
+    - title: Menu
+      url: /components/menu/
+    - title: Radio
+      url: /components/radio/
+    - title: Ripple
+      url: /components/ripple/
+    - title: Section
+      url: /components/section/
+    - title: Select
+      url: /components/select/
+    - title: Slider
+      url: /components/slider/
+    - title: Snackbar
+      url: /components/snackbar/
+    - title: Switch
+      url: /components/switch/
+    - title: Tabs
+      url: /components/tabs/
+    - title: Textfield
+      url: /components/textfield/
+    - title: Theme
+      url: /components/theme/
+    - title: Toolbar
+      url: /components/toolbar/
+    - title: Toolbar Nav
+      url: /components/toolbar-nav/
+    - title: Typography
+      url: /components/typography/
+- title: Utilities
+  url: /components/utilities/
+  pages:
+    - title: Spacing utilities
+      url: /components/utilities/spacing/
+    - title: Text utilities
+      url: /components/utilities/text/
+    - title: Visibility utilities
+      url: /components/utilities/visibility/
+- title: Framework integration
+  url: /framework-integration/
+- title: Useful links
+  url: /useful-links/

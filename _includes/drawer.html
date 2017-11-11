@@ -1,0 +1,8 @@
+{% if page.layout == "detail" %}
+{% assign drawer_state = " mdc-persistent-drawer--open" %}
+{% endif %}
+<nav class="docsite-drawer-nav mdc-persistent-drawer{{ drawer_state }}">
+  <ul class="docsite-drawer-nav__list mdc-persistent-drawer__drawer mdc-list-group">
+    {% include drawer-nav-item.html %}
+  </ul>
+</nav>

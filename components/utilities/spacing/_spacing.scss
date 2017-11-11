@@ -5,16 +5,6 @@
 
 @each $size in map-keys($mk-responsive-gap) {
   @each $key in map-keys(map-get($mk-responsive-gap, $size)) {
-    .mk-pb--#{$key} {
-      @include mdc-layout-grid-media-query_($size) {
-        padding-bottom: map-get(map-get($mk-responsive-gap, $size), $key);
-      }
-    }
-  }
-}
-
-@each $size in map-keys($mk-responsive-gap) {
-  @each $key in map-keys(map-get($mk-responsive-gap, $size)) {
     @each $prop, $abbr in (margin: m, padding: p) {
       // Top and bottom
       .mk-#{$abbr}x--#{$key} {

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html class="mdc-typography" lang="en">
+  {% include head.html %}
+  <body class="docsite-page docsite-page--article docsite-page--{{ page.section }} mdc-typography--body1">
+    {% include toolbar.html %}
+    <div class="docsite-page__content">
+      {% include drawer.html %}
+      <article class="docsite-page__article">
+        <div class="mk-section mk-section--theme-dark mdc-theme--primary-bg mk-py--md">
+          <div class="mdc-layout-grid">
+            <h1 class="mk-section__title mk-mb--xs">{{ page.title }}</h1>
+            <p class="mk-section__description mk-mb--none">{{ page.description }}</p>
+          </div>
+        </div>
+        <div class="mk-section mk-py--md">
+          <div class="mdc-layout-grid">
+            {{ content }}
+          </div>
+        </div>
+      </article>
+    </div>
+    {% include footer.html %}
+    {% include scripts.html %}
+  </body>
+</html>

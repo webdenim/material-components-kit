@@ -61,6 +61,10 @@
     height: 100%;
     padding: 0 24px;
     transition: color .2s ease-out;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
 
     &:hover {
       @include mdc-theme-prop(color, text-primary-on-primary);
