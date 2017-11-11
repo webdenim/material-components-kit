@@ -79,6 +79,11 @@
   }
 }
 
+// stylelint-disable selector-max-type,selector-no-qualifying-type
+a.mdc-toolbar__title {
+  color: inherit;
+}
+
 .mdc-toolbar--fixed {
   @include mk-elevation(4);
 }
