@@ -39,9 +39,9 @@
     "stylelint-config-material-kit": "^0.1.4"
   },
   "dependencies": {
-    "material-components-web": "^0.22.0"
+    "material-components-web": "^0.24.0"
   },
   "peerDependencies": {
-    "material-components-web": "^0.22.0"
+    "material-components-web": "^0.24.0"
   }
 }

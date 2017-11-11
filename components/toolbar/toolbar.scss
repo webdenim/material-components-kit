@@ -74,8 +74,10 @@
     @include mk-toolbar-element-vertical-padding;
   }
 
-  &__icon--menu {
+  &__menu-icon {
     @include mk-toolbar-element-vertical-padding;
+
+    color: inherit;
   }
 }
 
