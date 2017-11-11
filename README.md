@@ -1,6 +1,8 @@
 # Material Kit
 
-Material Kit is an SCSS library built on top of Material Components for the Web.
+SCSS library that complements
+[Material Components for the Web](https://github.com/material-components/material-components-web)
+with useful components and utilities.
 
 ## Installation
 
@@ -19,3 +21,11 @@ npm install --save @material-kit/lib
 // Using the whole library
 @import "@material-kit/lib/material-kit";
 ```
+
+## Documentation
+
+See our [documentation site](https://www.webdenim.io/material-kit/) for more information.
+
+## License
+
+MIT

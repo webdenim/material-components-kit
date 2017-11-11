@@ -1,7 +1,7 @@
 {
   "name": "@material-kit/lib",
   "version": "0.3.0",
-  "description": "SCSS library built on top of Material Components for the Web",
+  "description": "SCSS library that complements MDC-Web with useful components and utilities",
   "keywords": [
     "material-kit",
     "material",
