@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.3.0"></a>
+# [0.3.0](https://github.com/webdenim/material-kit/compare/0.2.0...0.3.0) (2017-11-11)
+
+
+### Features
+
+* **section:** add initial implementation of the section ([e7223d3](https://github.com/webdenim/material-kit/commit/e7223d3))
+* **toolbar:** add `custom` modifier for the toolbar title ([db18171](https://github.com/webdenim/material-kit/commit/db18171))
+* **toolbar:** make the toolbar title inherit parent's text color ([bf5863f](https://github.com/webdenim/material-kit/commit/bf5863f))
+* **toolbar-nav:** add button reset to the toolbar-nav tabs ([7343708](https://github.com/webdenim/material-kit/commit/7343708))
+* **utilities:** add responsive breakpoints for visibility utilities ([54a1eb3](https://github.com/webdenim/material-kit/commit/54a1eb3))
+* **utilities:** switch from px to rem in spacing variables ([9ac06b3](https://github.com/webdenim/material-kit/commit/9ac06b3))
+
+
+
 <a name="0.2.0"></a>
 # [0.2.0](https://github.com/webdenim/material-kit/compare/0.1.5...0.2.0) (2017-10-19)
 
