@@ -32,7 +32,7 @@
     "docs:fix": "stylelint --fix _sass/**/*.scss",
     "docs:jekyll": "bundler exec jekyll serve",
     "docs:lint": "stylelint _sass/**/*.scss",
-    "docs:publish": "push-dir --dir=_site --branch=gh-pages",
+    "docs:publish": "push-dir --dir=_site --branch=gh-pages --cleanup",
     "docs:webpack": "webpack --watch",
     "fix": "stylelint --fix components/**/*.scss",
     "lint": "stylelint components/**/*.scss",
