@@ -38,10 +38,10 @@ Welcome to the documentation for Material Kit! Here you will find the latest gui
     </a>
   </div>
   <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
-    <a href="{{ site.url }}/framework-integration/"
+    <a href="{{ site.url }}/javascript-integration/"
        class="docsite-hover-card mdc-card mk-td--none">
       <div class="docsite-hover-card__primary mdc-card__primary">
-        <h2 class="mdc-card__title mdc-card__title--large">Framework integration</h2>
+        <h2 class="mdc-card__title mdc-card__title--large">JavaScript integration</h2>
         <p class="mdc-card__subtitle">Integrate Material Kit into JavaScript frameworks.</p>
       </div>
     </a>

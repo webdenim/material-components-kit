@@ -1,9 +1,9 @@
 ---
-title: Framework integration
+title: JavaScript integration
 description: Integrate Material Kit into JavaScript frameworks.
 layout: detail
 date: 2017-10-27
-lastmod: 2017-11-02
+lastmod: 2017-11-12
 ---
 
 Material Kit is an SCSS library. Hence, it doesn't provide any JavaScript. However, noting that
