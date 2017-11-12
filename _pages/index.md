@@ -25,7 +25,9 @@ lastmod: 2017-10-17
         </p>
       </div>
       <div class="docsite-landing-row__cell mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
-        <img class="docsite-landing-row__image" src="https://static.webdenim.io/images/flat-illustrations/package.svg">
+        <img class="docsite-landing-row__image"
+             src="https://static.webdenim.io/images/flat-illustrations/package.svg"
+             alt="">
       </div>
     </div>
     <a href="#features"
@@ -41,7 +43,9 @@ lastmod: 2017-10-17
   <div class="mdc-layout-grid">
     <div class="docsite-landing-row mdc-layout-grid__inner">
       <div class="docsite-landing-row__cell mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
-        <img class="docsite-landing-row__image" src="https://static.webdenim.io/images/flat-illustrations/search.svg">
+        <img class="docsite-landing-row__image"
+             src="https://static.webdenim.io/images/flat-illustrations/search.svg"
+             alt="">
       </div>
       <div class="docsite-landing-row__cell mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
         <h2 class="docsite-title mk-section__title mk-mb--sm">
@@ -65,13 +69,17 @@ lastmod: 2017-10-17
         </p>
       </div>
       <div class="docsite-landing-row__cell mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
-        <img class="docsite-landing-row__image" src="https://static.webdenim.io/images/flat-illustrations/clean-code.svg">
+        <img class="docsite-landing-row__image"
+             src="https://static.webdenim.io/images/flat-illustrations/clean-code.svg"
+             alt="">
       </div>
     </div>
     <hr class="mk-my--lg">
     <div class="docsite-landing-row mdc-layout-grid__inner">
       <div class="docsite-landing-row__cell mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
-        <img class="docsite-landing-row__image" src="https://static.webdenim.io/images/flat-illustrations/crown.svg">
+        <img class="docsite-landing-row__image"
+             src="https://static.webdenim.io/images/flat-illustrations/crown.svg"
+             alt="">
       </div>
       <div class="docsite-landing-row__cell mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
         <h2 class="docsite-title mk-section__title mk-mb--sm">
