@@ -60,7 +60,7 @@ $mdc-typography-styles: (
   subheading2: (
     font-size: 1rem, /* 16sp */
     line-height: 1.75rem, /* 28sp */
-    font-weight: map-get($mdc-typography-font-weight-values, regular),
+    font-weight: map-get($mdc-typography-font-weight-values, medium),
     letter-spacing: .01em,
     margin: -.5rem 0 1rem -.06em /* -8sp 0 16sp -.06em */,
     text-decoration: inherit,
