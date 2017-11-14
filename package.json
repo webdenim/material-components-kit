@@ -28,7 +28,7 @@
   "scripts": {
     "clean": "del-cli _site/**",
     "dev": "npm run clean && parallelshell \"npm run docs:webpack\" \"npm run docs:jekyll\"",
-    "docs:build": "webpack && cross-env JEKYLL_ENV=production bundler exec jekyll build --config _config.yaml,_prod-config.yaml",
+    "docs:build": "npm run clean && webpack && cross-env JEKYLL_ENV=production bundler exec jekyll build --config _config.yaml,_prod-config.yaml",
     "docs:fix": "stylelint --fix _sass/**/*.scss",
     "docs:jekyll": "bundler exec jekyll serve",
     "docs:lint": "stylelint _sass/**/*.scss",
