@@ -3,3 +3,5 @@ _site
 assets
 .sass-cache
 .jekyll-metadata
+
+dist

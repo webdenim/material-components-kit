@@ -18,7 +18,8 @@
   "license": "MIT",
   "author": "Webdenim",
   "files": [
-    "components/**/*.scss"
+    "components/**/*.scss",
+    "dist/**/*.css"
   ],
   "main": "material-kit.scss",
   "repository": {
@@ -26,11 +27,12 @@
     "url": "git+https://github.com/webdenim/material-kit.git"
   },
   "scripts": {
-    "clean": "del-cli _site/**",
+    "clean": "del-cli _site/** dist/**",
+    "build": "npm run clean && webpack -p && cross-env JEKYLL_ENV=production bundler exec jekyll build",
     "deploy": "push-dir --dir=_site --branch=gh-pages --cleanup",
-    "dev": "npm run clean && npm run docs:jekyll",
-    "docs:build": "npm run clean && cross-env JEKYLL_ENV=production bundler exec jekyll build",
+    "dev": "npm run clean && parallelshell \"npm run docs:webpack\" \"npm run docs:jekyll\"",
     "docs:jekyll": "bundler exec jekyll serve --config _config.yml,_config.dev.yml",
+    "docs:webpack": "webpack --watch",
     "fix": "stylelint --fix components/**/*.scss",
     "lint": "stylelint components/**/*.scss",
     "release": "standard-version --tag-prefix",
@@ -46,6 +48,7 @@
     "del-cli": "^1.1.0",
     "extract-text-webpack-plugin": "^3.0.1",
     "node-sass": "^4.6.1",
+    "parallelshell": "^3.0.2",
     "push-dir": "^0.4.1",
     "sass-loader": "^6.0.6",
     "standard-version": "^4.2.0",
