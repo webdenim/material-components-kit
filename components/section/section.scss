@@ -8,6 +8,8 @@
   position: relative;
 
   @include mdc-theme-dark(".mk-section") {
+    @include mdc-theme-prop(color, text-primary-on-dark);
+
     &__eyebrow {
       @include mdc-theme-prop(color, text-secondary-on-dark);
 
