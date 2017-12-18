@@ -7,8 +7,9 @@ description: >
 keywords: material design, material design ui, material components web, bootstrap alternative
 layout: home
 permalink: /
-date: 2017-10-17
-lastmod: 2017-12-18
+schema_types:
+  - WebPage
+  - SoftwareApplication
 ---
 
 <div class="mk-section mk-section--theme-dark mdc-theme--primary-bg mk-py--lg">
