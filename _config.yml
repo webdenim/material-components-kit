@@ -1,0 +1,32 @@
+# Site settings
+title: Material Kit
+description: >
+  Material Kit by Webdenim is a UI toolkit for building websites and web apps with Material Design.
+  Material Kit is built on top of Material Components for the Web and complements it with useful
+  components and utilities.
+baseurl: /material-kit
+url: https://www.webdenim.io
+theme: jekyll-theme-webdenim
+
+codepen_url: https://codepen.io/collection/AKaybW/
+mdc_url: https://material.io/components/web/
+mdg_url: https://material.io/guidelines/
+repo_url: https://github.com/webdenim/material-kit
+
+# Build settings
+markdown: kramdown
+kramdown:
+  auto_ids: true
+incremental: true
+
+# Plugins
+plugins:
+  - jekyll-snippet
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Dev Server
+port:           9001

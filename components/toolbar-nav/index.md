@@ -1,7 +1,7 @@
 ---
 title: Toolbar Nav
 description: Material Design-styled Toolbar navigation.
-layout: detail
+layout: docs
 section: components
 date: 2017-10-19
 lastmod: 2017-10-19

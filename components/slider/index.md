@@ -1,7 +1,7 @@
 ---
 title: Slider
 description: A select over a range of values by moving the slider thumb.
-layout: detail
+layout: docs
 section: components
 date: 2017-10-20
 lastmod: 2017-10-20

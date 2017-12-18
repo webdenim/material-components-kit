@@ -1,7 +1,7 @@
 ---
 title: Text Field
 description: Material Design-styled textual input field.
-layout: detail
+layout: docs
 section: components
 date: 2017-10-20
 lastmod: 2017-10-20

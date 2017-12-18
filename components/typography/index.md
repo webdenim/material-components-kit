@@ -1,7 +1,7 @@
 ---
 title: Typography
 description: Typographic scale that handles a set of type sizes.
-layout: detail
+layout: docs
 section: components
 date: 2017-10-20
 lastmod: 2017-10-20

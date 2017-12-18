@@ -1,7 +1,7 @@
 ---
 title: Card
 description: Card for displaying content composed of different elements.
-layout: detail
+layout: docs
 section: components
 date: 2017-10-19
 lastmod: 2017-10-19

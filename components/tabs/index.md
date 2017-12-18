@@ -1,7 +1,7 @@
 ---
 title: Tabs
 description: A tabbed navigation component.
-layout: detail
+layout: docs
 section: components
 date: 2017-10-20
 lastmod: 2017-10-20

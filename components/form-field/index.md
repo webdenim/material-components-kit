@@ -1,7 +1,7 @@
 ---
 title: Form Field
 description: Material Design-styled form field.
-layout: detail
+layout: docs
 section: components
 date: 2017-10-19
 lastmod: 2017-10-19

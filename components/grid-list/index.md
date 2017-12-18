@@ -1,7 +1,7 @@
 ---
 title: Grid List
 description: An RTL-aware Material Design grid list component.
-layout: detail
+layout: docs
 section: components
 date: 2017-10-19
 lastmod: 2017-10-19

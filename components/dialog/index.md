@@ -1,7 +1,7 @@
 ---
 title: Dialog
 description: Modal dialog.
-layout: detail
+layout: docs
 section: components
 date: 2017-10-17
 lastmod: 2017-10-17

@@ -1,7 +1,7 @@
 ---
 title: JavaScript integration
 description: Integrate Material Kit into JavaScript frameworks.
-layout: detail
+layout: docs
 date: 2017-10-27
 lastmod: 2017-11-12
 ---

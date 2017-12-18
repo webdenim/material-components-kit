@@ -1,7 +1,7 @@
 ---
 title: Useful links
 description: A collection of useful resources.
-layout: detail
+layout: docs
 date: 2017-11-09
 lastmod: 2017-11-09
 ---

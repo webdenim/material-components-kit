@@ -1,7 +1,7 @@
 ---
 title: Linear Progress
 description: Material Design-styled linear progress indicator.
-layout: detail
+layout: docs
 section: components
 date: 2017-10-19
 lastmod: 2017-10-19

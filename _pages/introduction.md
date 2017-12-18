@@ -1,7 +1,7 @@
 ---
 title: Introduction
 description: What is Material Kit.
-layout: detail
+layout: docs
 section: getting-started
 date: 2017-10-25
 lastmod: 2017-11-02

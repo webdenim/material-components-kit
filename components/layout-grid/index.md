@@ -1,7 +1,7 @@
 ---
 title: Layout Grid
 description: Responsive grid using CSS/SCSS.
-layout: detail
+layout: docs
 section: components
 date: 2017-10-19
 lastmod: 2017-10-19

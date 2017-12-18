@@ -1,10 +1,10 @@
 ---
 title: Section
 description: Building block of page's content.
-layout: detail
+layout: docs
 section: components
 date: 2017-10-25
-lastmod: 2017-10-25
+lastmod: 2017-12-18
 ---
 
 Section is an exclusive Material Kit's component. It's a composing metaphor which lets you create a focused, attention-grabbing unit of content.
@@ -14,13 +14,13 @@ Bootstrap framework and sets the maximum allowed width of inner content. Section
 be used for coloring background in theme palette or for adjusting the vertical padding of content.
 
 {% snippet html %}
-<div class="mk-section mk-section--theme-dark mdc-theme--primary-bg mk-ta--center mk-py--lg">
+<div class="mk-section mk-ta--center mk-py--lg" style="background: #fff;">
   <div class="mdc-layout-grid">
     <h1 class="mk-section__title mk-section__title--large">Welcome to Material Kit</h1>
     <p class="mk-section__description">SCSS toolkit for MDC-Web.</p>
     <p class="mk-section__actions">
-      <button class="mdc-button mdc-button--raised mdc-theme--secondary-bg">Get started</button>
-      <button class="mdc-button mdc-button--unelevated">Learn more</button>
+      <button class="mdc-button mdc-button--unelevated">Get started</button>
+      <button class="mdc-button">Learn more</button>
     </p>
   </div>
 </div>
@@ -50,13 +50,13 @@ but there are also optional elements: section title, section description and sec
 By default section doesn't include explicit padding except one's that comes from `mdc-layout-grid`:
 
 {% snippet html %}
-<div class="mk-section mk-section--theme-dark mdc-theme--primary-bg">
+<div class="mk-section" style="background: #fff;">
   <div class="mdc-layout-grid">
     <h1 class="mk-section__title">Welcome to Material Kit</h1>
     <p class="mk-section__description">SCSS toolkit for MDC-Web.</p>
     <p class="mk-section__actions">
-      <button class="mdc-button mdc-button--raised mdc-theme--secondary-bg">Get started</button>
-      <button class="mdc-button mdc-button--unelevated">Learn more</button>
+      <button class="mdc-button mdc-button--unelevated">Get started</button>
+      <button class="mdc-button">Learn more</button>
     </p>
   </div>
 </div>
@@ -65,24 +65,24 @@ By default section doesn't include explicit padding except one's that comes from
 You can adjust the height of the section by adding [spacing utility classes](../utilities/spacing/):
 
 {% snippet html %}
-<div class="mk-section mk-section--theme-dark mdc-theme--primary-bg mk-py--lg">
+<div class="mk-section mk-py--lg" style="background: #fff;">
   <div class="mdc-layout-grid">
     <h1 class="mk-section__title">Welcome to Material Kit</h1>
     <p class="mk-section__description">SCSS toolkit for MDC-Web.</p>
     <p class="mk-section__actions">
-      <button class="mdc-button mdc-button--raised mdc-theme--secondary-bg">Get started</button>
-      <button class="mdc-button mdc-button--unelevated">Learn more</button>
+      <button class="mdc-button mdc-button--unelevated">Get started</button>
+      <button class="mdc-button">Learn more</button>
     </p>
   </div>
 </div>
 <hr>
-<div class="mk-section mk-section--theme-dark mdc-theme--primary-bg mk-py--xl">
+<div class="mk-section mk-py--xl" style="background: #fff;">
   <div class="mdc-layout-grid">
     <h1 class="mk-section__title mk-section__title--large">Welcome to Material Kit</h1>
     <p class="mk-section__description">SCSS toolkit for MDC-Web.</p>
     <p class="mk-section__actions">
-      <button class="mdc-button mdc-button--raised mdc-theme--secondary-bg">Get started</button>
-      <button class="mdc-button mdc-button--unelevated">Learn more</button>
+      <button class="mdc-button mdc-button--unelevated">Get started</button>
+      <button class="mdc-button">Learn more</button>
     </p>
   </div>
 </div>
@@ -104,19 +104,8 @@ If your background is dark, add `mk-section--theme-dark` class.
     <h1 class="mk-section__title">Welcome to Material Kit</h1>
     <p class="mk-section__description">SCSS toolkit for MDC-Web.</p>
     <p class="mk-section__actions">
-      <button class="mdc-button mdc-button--raised mdc-theme--secondary-bg">Get started</button>
+      <button class="mdc-button mdc-theme--text-primary-on-secondary mdc-theme--secondary-bg">Get started</button>
       <button class="mdc-button mdc-button--unelevated">Learn more</button>
-    </p>
-  </div>
-</div>
-<hr>
-<div class="mk-section mk-section--theme-dark mdc-theme--secondary-bg mk-py--md">
-  <div class="mdc-layout-grid">
-    <h1 class="mk-section__title">Welcome to Material Kit</h1>
-    <p class="mk-section__description">SCSS toolkit for MDC-Web.</p>
-    <p class="mk-section__actions">
-      <button class="mdc-button mdc-button--raised">Get started</button>
-      <button class="mdc-button mdc-button--unelevated mdc-theme--secondary-bg">Learn more</button>
     </p>
   </div>
 </div>
@@ -129,13 +118,13 @@ If your background is dark, add `mk-section--theme-dark` class.
 You can align text in the section by adding [text utility classes](../utilities/text/):
 
 {% snippet html %}
-<div class="mk-section mk-section--theme-dark mdc-theme--primary-bg mk-py--lg mk-ta--center">
+<div class="mk-section mk-py--lg mk-ta--center" style="background: #fff;">
   <div class="mdc-layout-grid">
     <h1 class="mk-section__title">Welcome to Material Kit</h1>
     <p class="mk-section__description">SCSS toolkit for MDC-Web.</p>
     <p class="mk-section__actions">
-      <button class="mdc-button mdc-button--raised mdc-theme--secondary-bg">Get started</button>
-      <button class="mdc-button mdc-button--unelevated">Learn more</button>
+      <button class="mdc-button mdc-button--unelevated">Get started</button>
+      <button class="mdc-button">Learn more</button>
     </p>
   </div>
 </div>

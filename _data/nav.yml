@@ -1,5 +1,4 @@
 - title: Getting started
-  url: /getting-started/
   pages:
     - title: Introduction
       url: /introduction/
@@ -7,8 +6,11 @@
       url: /installation/
     - title: Usage
       url: /usage/
-- title: Components
-  url: /components/
+    - title: JavaScript integration
+      url: /javascript-integration/
+    - title: Useful links
+      url: /useful-links/
+- title: MDC-Web
   pages:
     - title: Button
       url: /components/button/
@@ -42,8 +44,6 @@
       url: /components/radio/
     - title: Ripple
       url: /components/ripple/
-    - title: Section
-      url: /components/section/
     - title: Select
       url: /components/select/
     - title: Slider
@@ -60,12 +60,39 @@
       url: /components/theme/
     - title: Toolbar
       url: /components/toolbar/
-    - title: Toolbar Nav
-      url: /components/toolbar-nav/
     - title: Typography
       url: /components/typography/
+- title: Components
+  pages:
+    - title: Callout
+      url: /components/callout/
+      disabled: true
+    - title: Expanding Drawer Nav
+      url: /components/drawer-nav/expanding/
+      disabled: true
+    - title: Nested Drawer Nav
+      url: /components/drawer-nav/nested/
+      disabled: true
+    - title: Guide Nav
+      url: /components/guide-nav/
+      disabled: true
+    - title: Icon Box
+      url: /components/icon-box/
+      disabled: true
+    - title: Rating Stars
+      url: /components/rating-stars/
+      disabled: true
+    - title: Scorecard
+      url: /components/scorecard/
+      disabled: true
+    - title: Search Box
+      url: /components/search-box/
+      disabled: true
+    - title: Section
+      url: /components/section/
+    - title: Toolbar Nav
+      url: /components/toolbar-nav/
 - title: Utilities
-  url: /components/utilities/
   pages:
     - title: Spacing utilities
       url: /components/utilities/spacing/
@@ -73,7 +100,3 @@
       url: /components/utilities/text/
     - title: Visibility utilities
       url: /components/utilities/visibility/
-- title: JavaScript integration
-  url: /javascript-integration/
-- title: Useful links
-  url: /useful-links/

@@ -1,7 +1,7 @@
 ---
 title: Icon Toggle
 description: Material Design-styled icon-toggle button.
-layout: detail
+layout: docs
 section: components
 date: 2017-10-19
 lastmod: 2017-10-19

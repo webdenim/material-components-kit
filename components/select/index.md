@@ -1,7 +1,7 @@
 ---
 title: Select
 description: Material Design-styled select menu.
-layout: detail
+layout: docs
 section: components
 date: 2017-10-20
 lastmod: 2017-10-20

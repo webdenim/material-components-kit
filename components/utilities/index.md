@@ -1,7 +1,7 @@
 ---
 title: Utility classes
 description: Shorthand classes for adjusting elements' properties.
-layout: detail
+layout: docs
 section: utilities
 date: 2017-10-20
 lastmod: 2017-10-28

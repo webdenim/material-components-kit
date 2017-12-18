@@ -1,7 +1,7 @@
 {
   "name": "@material-kit/lib",
   "version": "0.3.1",
-  "description": "SCSS library that complements MDC-Web with useful components and utilities",
+  "description": "UI toolkit for building web apps with Material Design",
   "keywords": [
     "material-kit",
     "material",
@@ -11,7 +11,7 @@
     "css",
     "scss"
   ],
-  "homepage": "https://github.com/webdenim/material-kit",
+  "homepage": "https://www.webdenim.io/material-kit/",
   "bugs": {
     "url": "https://github.com/webdenim/material-kit/issues"
   },
@@ -27,16 +27,12 @@
   },
   "scripts": {
     "clean": "del-cli _site/**",
-    "dev": "npm run clean && parallelshell \"npm run docs:webpack\" \"npm run docs:jekyll\"",
-    "docs:build": "npm run clean && webpack && cross-env JEKYLL_ENV=production bundler exec jekyll build --config _config.yaml,_prod-config.yaml",
-    "docs:fix": "stylelint --fix _sass/**/*.scss",
-    "docs:jekyll": "bundler exec jekyll serve",
-    "docs:lint": "stylelint _sass/**/*.scss",
-    "docs:publish": "push-dir --dir=_site --branch=gh-pages --cleanup",
-    "docs:webpack": "webpack --watch",
+    "deploy": "push-dir --dir=_site --branch=gh-pages --cleanup",
+    "dev": "npm run clean && npm run docs:jekyll",
+    "docs:build": "npm run clean && cross-env JEKYLL_ENV=production bundler exec jekyll build",
+    "docs:jekyll": "bundler exec jekyll serve --config _config.yml,_config.dev.yml",
     "fix": "stylelint --fix components/**/*.scss",
     "lint": "stylelint components/**/*.scss",
-    "pretest": "npm run lint",
     "release": "standard-version --tag-prefix",
     "start": "npm run dev",
     "test": "echo TODO: make tests"
@@ -50,7 +46,6 @@
     "del-cli": "^1.1.0",
     "extract-text-webpack-plugin": "^3.0.1",
     "node-sass": "^4.6.1",
-    "parallelshell": "^3.0.2",
     "push-dir": "^0.4.1",
     "sass-loader": "^6.0.6",
     "standard-version": "^4.2.0",

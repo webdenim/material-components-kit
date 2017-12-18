@@ -2,8 +2,8 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 3.6.0"
 
-gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+gem "jekyll-theme-webdenim", :git => "https://gitlab.com/webdenim/jekyll-theme-webdenim.git", :tag => "0.1.1"
 
 group :jekyll_plugins do
-  gem 'jekyll-tidy', '0.2.2'
+  gem "jekyll-snippet", :git => "https://gitlab.com/webdenim/jekyll-snippet.git", :tag => "v0.1.2"
 end

@@ -1,7 +1,7 @@
 ---
 title: Installation
 description: Install Material Kit and required build tools.
-layout: detail
+layout: docs
 section: getting-started
 date: 2017-10-25
 lastmod: 2017-11-06

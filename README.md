@@ -1,31 +1,15 @@
 # Material Kit
 
-SCSS library that complements
-[Material Components for the Web](https://github.com/material-components/material-components-web)
-with useful components and utilities.
-
-## Installation
-
-```bash
-npm install --save @material-kit/lib
-```
-
-## Usage
-
-```scss
-// Using individual components (recommended)
-@import "@material-kit/lib/components/checkbox/checkbox";
-@import "@material-kit/lib/components/elevation/elevation";
-@import "@material-kit/lib/components/typography/typography";
-
-// Using the whole library
-@import "@material-kit/lib/material-kit";
-```
+[Material Kit by Webdenim](https://www.webdenim.io/material-kit/) is a UI toolkit
+for building web apps with Material Design.
+Material Kit is built on top of Material Components for the Web and complements it with useful
+components and utilities.
 
 ## Documentation
 
-See our [documentation site](https://www.webdenim.io/material-kit/) for more information.
+See [official Material Kit documentation site](https://www.webdenim.io/material-kit/)
+for detailed installation instructions, demos and more.
 
 ## License
 
-MIT
+Material Kit is a free and open-source project licensed under the MIT.

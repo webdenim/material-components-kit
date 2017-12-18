@@ -3,7 +3,7 @@ title: Toolbar
 description: >
   A container for multiple rows of items such as application title, navigation menu, or tabs.
   MK Toolbar extends MDC Toolbar by providing more control over toolbar's height and theming.
-layout: detail
+layout: docs
 section: components
 date: 2017-10-19
 lastmod: 2017-10-19

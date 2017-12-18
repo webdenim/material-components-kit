@@ -1,7 +1,7 @@
 ---
 title: Drawer
 description: Permanent, persistent, and temporary drawers.
-layout: detail
+layout: docs
 section: components
 date: 2017-10-17
 lastmod: 2017-10-17
