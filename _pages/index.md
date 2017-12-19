@@ -9,7 +9,6 @@ layout: home
 permalink: /
 schema_types:
   - WebPage
-  - SoftwareApplication
 ---
 
 <div class="mk-section mk-section--theme-dark mdc-theme--primary-bg mk-py--lg">

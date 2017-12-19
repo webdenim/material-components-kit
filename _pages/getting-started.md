@@ -11,7 +11,7 @@ Welcome to the documentation for Material Kit! Here you will find the latest gui
 
 <div class="mdc-layout-grid__inner">
   <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
-    <a href="{{ site.url }}/introduction/"
+    <a href="{{ site.baseurl }}/introduction/"
        class="hover-card mdc-card mk-td--none">
       <div class="hover-card__primary mdc-card__primary">
         <h2 class="mdc-card__title mdc-card__title--large">Introduction</h2>
@@ -20,7 +20,7 @@ Welcome to the documentation for Material Kit! Here you will find the latest gui
     </a>
   </div>
   <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
-    <a href="{{ site.url }}/installation/"
+    <a href="{{ site.baseurl }}/installation/"
        class="hover-card mdc-card mk-td--none">
       <div class="hover-card__primary mdc-card__primary">
         <h2 class="mdc-card__title mdc-card__title--large">Installation</h2>
@@ -29,7 +29,7 @@ Welcome to the documentation for Material Kit! Here you will find the latest gui
     </a>
   </div>
   <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
-    <a href="{{ site.url }}/usage/"
+    <a href="{{ site.baseurl }}/usage/"
        class="hover-card mdc-card mk-td--none">
       <div class="hover-card__primary mdc-card__primary">
         <h2 class="mdc-card__title mdc-card__title--large">Usage</h2>
@@ -38,7 +38,7 @@ Welcome to the documentation for Material Kit! Here you will find the latest gui
     </a>
   </div>
   <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
-    <a href="{{ site.url }}/javascript-integration/"
+    <a href="{{ site.baseurl }}/javascript-integration/"
        class="hover-card mdc-card mk-td--none">
       <div class="hover-card__primary mdc-card__primary">
         <h2 class="mdc-card__title mdc-card__title--large">JavaScript integration</h2>
