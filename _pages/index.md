@@ -24,7 +24,7 @@ schema_types:
         </p>
         <p class="mk-section__actions">
           <a href="./getting-started/"
-             class="mdc-button mdc-theme--text-primary-on-secondary mdc-theme--secondary-bg"
+             class="mdc-button mdc-theme--text-primary-on-primary mdc-theme--secondary-bg"
              data-on="click,auxclick,contextmenu"
              data-region="Hero banner">Get started</a>
         </p>
@@ -36,7 +36,7 @@ schema_types:
       </div>
     </div>
     <a href="#features"
-       class="mk-section__fab mk-section__fab--align-center mdc-fab"
+       class="mk-section__fab mk-section__fab--align-center mdc-fab mdc-theme--text-primary-on-primary"
        data-on="click,auxclick,contextmenu"
        data-region="Hero banner">
       <i class="mdc-fab__icon material-icons">arrow_downward</i>
@@ -105,7 +105,7 @@ schema_types:
     <p class="mk-section__description">SCSS toolkit for MDC-Web.</p>
     <p class="mk-section__actions">
       <a href="./getting-started/"
-         class="mdc-button mdc-theme--text-primary-on-secondary mdc-theme--secondary-bg"
+         class="mdc-button mdc-theme--text-primary-on-primary mdc-theme--secondary-bg"
          data-on="click,auxclick,contextmenu"
          data-region="Footer banner">Get started</a>
     </p>
