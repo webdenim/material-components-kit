@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.5.0"></a>
+# [0.5.0](https://github.com/webdenim/material-kit/compare/0.4.3...0.5.0) (2018-01-13)
+
+
+### Bug Fixes
+
+* **section:** fix dark section ([360dd01](https://github.com/webdenim/material-kit/commit/360dd01))
+
+
+### Features
+
+* **icon-box:** add initial implementation of the icon-box ([5bf76ea](https://github.com/webdenim/material-kit/commit/5bf76ea))
+* **section:** add section eyebrow ([e10f1ac](https://github.com/webdenim/material-kit/commit/e10f1ac))
+* **section:** add section media and image ([1accd11](https://github.com/webdenim/material-kit/commit/1accd11))
+
+
+
 <a name="0.4.3"></a>
 ## [0.4.3](https://github.com/webdenim/material-kit/compare/0.4.2...0.4.3) (2017-12-19)
 
