@@ -32,6 +32,38 @@
   }
 }
 
+// Tagline above the title
+.mk-section__eyebrow {
+  @include mdc-theme-prop(color, text-secondary-on-light);
+  @include mdc-typography(subheading1);
+
+  @media (min-width: 840px) {
+    margin-bottom: 35px;
+    margin-bottom: 32px;
+  }
+
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 14px;
+  text-transform: uppercase;
+
+  &::after {
+    @include mdc-theme-prop(background-color, primary);
+
+    display: block;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 3px;
+    margin: 15px auto 0;
+
+    @media (min-width: 840px) {
+      margin-top: 20px;
+    }
+  }
+}
+
 .mk-section__title {
   font-size: map-get(map-get($mdc-typography-styles, display1), font-size);
   line-height: map-get(map-get($mdc-typography-styles, display1), line-height);
