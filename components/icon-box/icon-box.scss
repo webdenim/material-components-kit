@@ -1,0 +1,59 @@
+@import "@material/theme/mixins";
+
+.mk-icon-box {
+  text-align: center;
+  box-sizing: border-box;
+
+  &__graphic {
+    @include mdc-theme-prop(color, primary);
+
+    width: 32px;
+    height: 32px;
+    margin-right: auto;
+    margin-bottom: 1.25rem;
+    margin-left: auto;
+    font-size: 32px;
+
+    @at-root .mk-icon-box--boxed & {
+      @include mdc-theme-prop(background-color, primary);
+      @include mdc-theme-prop(color, text-primary-on-primary);
+
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      line-height: 96px;
+      text-align: center;
+    }
+
+    @at-root .mk-icon-box--large & {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      font-size: 48px;
+      line-height: 200px;
+      text-align: center;
+    }
+
+    // stylelint-disable selector-class-pattern
+    .material-icons {
+      font-size: 48px;
+      vertical-align: middle;
+    }
+    // stylelint-enable selector-class-pattern
+  }
+
+  &__text {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+
+  &__title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  &__description {
+    @include mdc-theme-prop(color, text-secondary-on-background);
+  }
+}

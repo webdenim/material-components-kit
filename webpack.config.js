@@ -17,6 +17,7 @@ module.exports = [{
     'fab': path.resolve('./components/fab/fab.scss'),
     'form-field': path.resolve('./components/form-field/form-field.scss'),
     'grid-list': path.resolve('./components/grid-list/grid-list.scss'),
+    'icon-box': path.resolve('./components/icon-box/icon-box.scss'),
     'icon-toggle': path.resolve('./components/icon-toggle/icon-toggle.scss'),
     'layout-grid': path.resolve('./components/layout-grid/layout-grid.scss'),
     'linear-progress': path.resolve('./components/linear-progress/linear-progress.scss'),
