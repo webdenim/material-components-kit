@@ -56,11 +56,11 @@
     "webpack": "^3.8.1"
   },
   "dependencies": {
-    "material-components-web": "^0.28.0",
+    "material-components-web": "^0.29.0",
     "reset-css": "^2.2.1"
   },
   "peerDependencies": {
-    "material-components-web": "^0.28.0"
+    "material-components-web": "^0.29.0"
   },
   "babel": {
     "presets": [
