@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.6.0"></a>
+# [0.6.0](https://github.com/webdenim/material-kit/compare/0.5.1...0.6.0) (2018-03-02)
+
+
+### Features
+
+* **chips:** add chips component ([4bddcdc](https://github.com/webdenim/material-kit/commit/4bddcdc))
+* **line-ripple:** add line-ripple component ([f6310d3](https://github.com/webdenim/material-kit/commit/f6310d3))
+* **theme:** add `mdc-theme-dark` mixin to Material Kit codebase ([31fa80e](https://github.com/webdenim/material-kit/commit/31fa80e))
+
+
+
 <a name="0.5.1"></a>
 ## [0.5.1](https://github.com/webdenim/material-kit/compare/0.5.0...0.5.1) (2018-01-29)
 
