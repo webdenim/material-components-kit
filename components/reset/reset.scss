@@ -2,9 +2,9 @@
 // stylelint-disable selector-max-type
 @import "@material/layout-grid/mixins";
 @import "@material/layout-grid/variables";
-@import "@material/theme/mixins";
 @import "@material/typography/mixins";
 @import "@material/typography/variables";
+@import "../theme/mixins";
 @import "reset-css/_reset";
 @import "./variables";
 
@@ -54,6 +54,7 @@ h1 {
 
 h2 {
   @include mdc-typography(headline);
+
   margin-top: 0;
   margin-bottom: $mk-reset-margin;
 }

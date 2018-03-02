@@ -1,9 +1,11 @@
 @import "@material/rtl/mixins";
 @import "@material/toolbar/variables";
+@import "../theme/mixins";
 @import "../toolbar/variables";
 
+// stylelint-disable selector-class-pattern
 @mixin mk-drawer-toolbar-spacer_() {
-  &__toolbar-spacer {
+  .mdc-drawer__toolbar-spacer {
     @include mdc-theme-dark(quote(#{&})) {
       border-bottom: 1px solid rgba(255, 255, 255, .12);
     }

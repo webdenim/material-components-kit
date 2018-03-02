@@ -2,6 +2,6 @@
 @import "../mixins";
 
 // stylelint-disable selector-class-pattern
-.mdc-persistent-drawer {
+.mdc-drawer--persistent {
   @include mk-drawer-base_;
 }
