@@ -7,8 +7,8 @@ GIT
 
 GIT
   remote: https://gitlab.com/webdenim/jekyll-theme-webdenim.git
-  revision: 9f7fe19f7e29ec3fdaa76bed8546de5f4318d7ec
-  tag: 0.1.5
+  revision: 27cca29490570e157f2200239b888e9129f2451f
+  tag: 0.2.4
   specs:
     jekyll-theme-webdenim (0.0.0)
       jekyll (~> 3.6)
@@ -37,7 +37,7 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-data (1.0.0)
       jekyll (~> 3.3)
-    jekyll-paginate-v2 (1.9.0)
+    jekyll-paginate-v2 (1.9.4)
       jekyll (~> 3.0)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
