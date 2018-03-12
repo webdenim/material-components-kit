@@ -7,12 +7,13 @@ GIT
 
 GIT
   remote: https://gitlab.com/webdenim/jekyll-theme-webdenim.git
-  revision: 27cca29490570e157f2200239b888e9129f2451f
-  tag: 0.2.4
+  revision: 83305d16dfc28f4e2362be696b5cdbc06ad39dd4
+  tag: 0.2.5
   specs:
     jekyll-theme-webdenim (0.0.0)
       jekyll (~> 3.6)
       jekyll-data (~> 1.0.0)
+      jekyll-last-modified-at (~> 1.0.1)
       jekyll-paginate-v2 (~> 1.9.0)
       jekyll-sitemap (~> 1.1.1)
 
@@ -37,6 +38,9 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-data (1.0.0)
       jekyll (~> 3.3)
+    jekyll-last-modified-at (1.0.1)
+      jekyll (~> 3.3)
+      posix-spawn (~> 0.3.9)
     jekyll-paginate-v2 (1.9.4)
       jekyll (~> 3.0)
     jekyll-sass-converter (1.5.0)
@@ -53,6 +57,7 @@ GEM
     mercenary (0.3.6)
     pathutil (0.16.0)
       forwardable-extended (~> 2.6)
+    posix-spawn (0.3.13)
     public_suffix (3.0.0)
     rb-fsevent (0.10.2)
     rb-inotify (0.9.10)
