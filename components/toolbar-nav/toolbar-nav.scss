@@ -89,11 +89,11 @@
       color: map-get($mdc-theme-property-values, text-secondary-on-primary-dark);
 
       &:hover {
-        color: map-get($mdc-theme-property-values, text-primary-on-primary-dark);
+        color: map-get($mdc-theme-property-values, text-primary-on-dark);
       }
 
       &--active {
-        color: map-get($mdc-theme-property-values, text-primary-on-primary-dark);
+        color: map-get($mdc-theme-property-values, text-primary-on-dark);
       }
     }
   }
