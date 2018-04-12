@@ -7,8 +7,8 @@ GIT
 
 GIT
   remote: https://gitlab.com/webdenim/jekyll-theme-webdenim.git
-  revision: 83305d16dfc28f4e2362be696b5cdbc06ad39dd4
-  tag: 0.2.5
+  revision: b24bea2a062214604deafc436e5fb1c6cc95df78
+  tag: 0.2.6
   specs:
     jekyll-theme-webdenim (0.0.0)
       jekyll (~> 3.6)

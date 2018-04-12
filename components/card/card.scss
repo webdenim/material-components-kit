@@ -1,7 +1,0 @@
-@import "@material/card/mdc-card";
-@import "../elevation/mixins";
-
-// stylelint-disable selector-class-pattern
-.mdc-card {
-  @include mk-elevation(2);
-}
