@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.8.0"></a>
+# [0.8.0](https://github.com/webdenim/material-components-kit/compare/0.7.0...0.8.0) (2018-04-12)
+
+
+### Bug Fixes
+
+* **toolbar:** fix mdc-theme-prop argument ([08daa71](https://github.com/webdenim/material-components-kit/commit/08daa71))
+
+
+### Features
+
+* **components:** remove components that are simple wrappers of MDC Web's CSS ([832c1d5](https://github.com/webdenim/material-components-kit/commit/832c1d5))
+
+
+
 <a name="0.7.0"></a>
 # [0.7.0](https://github.com/webdenim/material-components-kit/compare/0.6.0...0.7.0) (2018-03-12)
 
