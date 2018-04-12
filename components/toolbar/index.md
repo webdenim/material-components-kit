@@ -25,7 +25,7 @@ $mk-toolbar-row-height: 48px;
 $mk-toolbar-mobile-row-height: 48px;
 $mk-toolbar-mobile-landscape-row-height: 48px;
 
-@import "@material-kit/lib/components/toolbar/toolbar";
+@import "material-components-kit/components/toolbar/toolbar";
 ```
 
 {% snippet html %}
@@ -33,7 +33,7 @@ $mk-toolbar-mobile-landscape-row-height: 48px;
   <div class="mdc-toolbar__row mdc-toolbar__row--custom-height">
     <div class="mdc-toolbar__section mdc-toolbar__section--align-start">
       <button class="mdc-toolbar__menu-icon"><i class="material-icons">menu</i></button>
-      <span class="mdc-toolbar__title">Material Kit</span>
+      <span class="mdc-toolbar__title">Webdenim</span>
     </div>
   </div>
 </div>
@@ -51,7 +51,7 @@ which will add required margin-top.
   <div class="mdc-toolbar__row mdc-toolbar__row--custom-height">
     <div class="mdc-toolbar__section mdc-toolbar__section--align-start">
       <button class="mdc-toolbar__menu-icon"><i class="material-icons">menu</i></button>
-      <span class="mdc-toolbar__title">Material Kit</span>
+      <span class="mdc-toolbar__title">Webdenim</span>
     </div>
   </div>
 </div>
@@ -71,7 +71,7 @@ class to the toolbar row.
   <div class="mdc-toolbar__row mdc-toolbar__row--theme-light">
     <div class="mdc-toolbar__section mdc-toolbar__section--align-start">
       <button class="mdc-toolbar__menu-icon"><i class="material-icons">menu</i></button>
-      <span class="mdc-toolbar__title">Material Kit</span>
+      <span class="mdc-toolbar__title">Webdenim</span>
     </div>
   </div>
 </div>
@@ -86,7 +86,7 @@ class to the toolbar row.
   <div class="mdc-toolbar__row mdc-toolbar__row--theme-light">
     <div class="mdc-toolbar__section mdc-toolbar__section--align-start">
       <button class="mdc-toolbar__menu-icon"><i class="material-icons">menu</i></button>
-      <span class="mdc-toolbar__title">Material Kit</span>
+      <span class="mdc-toolbar__title">Webdenim</span>
       <nav class="mk-toolbar-nav">
         <a class="mk-toolbar-nav__tab mk-toolbar-nav__tab--active" href="javascript:void(0)">Home</a>
         <a class="mk-toolbar-nav__tab" href="javascript:void(0)">Features</a>

@@ -1,19 +1,20 @@
 {
-  "name": "@material-kit/lib",
+  "name": "material-components-kit",
   "version": "0.7.0",
   "description": "UI toolkit for building web apps with Material Design",
   "keywords": [
-    "material-kit",
     "material",
-    "material-design",
     "material-components",
+    "material-components-kit",
+    "material-design",
     "web",
     "css",
-    "scss"
+    "scss",
+    "ui"
   ],
-  "homepage": "https://www.webdenim.io/material-kit/",
+  "homepage": "https://www.webdenim.io/material-components-kit/",
   "bugs": {
-    "url": "https://github.com/webdenim/material-kit/issues"
+    "url": "https://github.com/webdenim/material-components-kit/issues"
   },
   "license": "MIT",
   "author": "Webdenim",
@@ -21,10 +22,10 @@
     "components/**/*.scss",
     "dist/**/*.css"
   ],
-  "main": "material-kit.scss",
+  "main": "material-components-kit.scss",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webdenim/material-kit.git"
+    "url": "git+https://github.com/webdenim/material-components-kit.git"
   },
   "scripts": {
     "clean": "del-cli _site/** dist/**",

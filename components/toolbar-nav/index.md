@@ -18,7 +18,7 @@ it's simpler than [using MDC Tabs within the toolbar](http://material-components
   <div class="mdc-toolbar__row">
     <div class="mdc-toolbar__section mdc-toolbar__section--align-start">
       <button class="mdc-toolbar__menu-icon"><i class="material-icons">menu</i></button>
-      <span class="mdc-toolbar__title">Material Kit</span>
+      <span class="mdc-toolbar__title">Webdenim</span>
       <nav class="mk-toolbar-nav">
         <a class="mk-toolbar-nav__tab mk-toolbar-nav__tab--active" href="javascript:void(0)">Home</a>
         <a class="mk-toolbar-nav__tab" href="javascript:void(0)">Features</a>
@@ -37,7 +37,7 @@ it's simpler than [using MDC Tabs within the toolbar](http://material-components
   <div class="mdc-toolbar__row">
     <div class="mdc-toolbar__section mdc-toolbar__section--align-start">
       <button class="mdc-toolbar__menu-icon"><i class="material-icons">menu</i></button>
-      <span class="mdc-toolbar__title">Material Kit</span>
+      <span class="mdc-toolbar__title">Webdenim</span>
     </div>
     <div class="mdc-toolbar__section mdc-toolbar__section--align-end">
       <nav class="mk-toolbar-nav">
@@ -60,7 +60,7 @@ Add `mk-tt--uppercase` class to `mk-toolbar-nav` to have uppercase tabs.
   <div class="mdc-toolbar__row">
     <div class="mdc-toolbar__section mdc-toolbar__section--align-start">
       <button class="mdc-toolbar__menu-icon"><i class="material-icons">menu</i></button>
-      <span class="mdc-toolbar__title">Material Kit</span>
+      <span class="mdc-toolbar__title">Webdenim</span>
       <nav class="mk-toolbar-nav mk-tt--uppercase">
         <a class="mk-toolbar-nav__tab mk-toolbar-nav__tab--active" href="javascript:void(0)">Home</a>
         <a class="mk-toolbar-nav__tab" href="javascript:void(0)">Features</a>

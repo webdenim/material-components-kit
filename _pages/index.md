@@ -1,8 +1,8 @@
 ---
 title: UI toolkit for building web apps with Material Design
 description: >
-  Material Kit by Webdenim is a UI toolkit for building websites and web apps with Material Design.
-  Material Kit is built on top of Material Components for the Web and complements it with useful
+  Material Components Kit by Webdenim is a UI toolkit for building websites and web apps with Material Design.
+  Material Components Kit is built on top of Material Components for the Web and complements it with useful
   components and utilities.
 keywords: material design, material design ui, material components web, bootstrap alternative
 layout: home
@@ -19,7 +19,7 @@ schema_types:
           Build web apps with Material Design. Effortlessly.
         </h1>
         <p class="mk-section__description mk-mb--none">
-          <strong>Material Kit by Webdenim</strong> is a UI toolkit for building websites and web apps
+          <strong>Material Components Kit</strong> is a UI toolkit for building websites and web apps
           with Material Design. Built on top of Material Components for the Web.
         </p>
         <p class="mk-section__actions">
@@ -57,7 +57,7 @@ schema_types:
           Utility library for Material Components for the Web.
         </h2>
         <p class="mk-section__description">
-          Material Kit provides a set of Bootstrap-like utility classes for MDC-Web to simplify
+          Material Components Kit provides a set of Bootstrap-like utility classes for MDC-Web to simplify
           front-end development.
         </p>
       </div>
@@ -69,7 +69,7 @@ schema_types:
           Useful Material Design components.
         </h2>
         <p class="mk-section__description">
-          Material Kit complements MDC-Web with components which are not presented in the parent
+          Material Components Kit complements MDC-Web with components which are not presented in the parent
           library.
         </p>
       </div>
@@ -91,7 +91,7 @@ schema_types:
           Unopinionated about your JavaScript framework.
         </h2>
         <p class="mk-section__description">
-          Material Kit is an SCSS library so it doesn't provide any JavaScript.
+          Material Components Kit is an SCSS library so it doesn't provide any JavaScript.
           It's aimed to work with any JavaScript wrapper for MDC-Web.
         </p>
       </div>
@@ -101,7 +101,7 @@ schema_types:
 
 <div class="mk-section mk-section--theme-dark mdc-theme--primary-bg mk-py--lg mk-ta--center">
   <div class="mdc-layout-grid">
-    <h2 class="custom-font mk-section__title">Material Kit</h2>
+    <h2 class="custom-font mk-section__title">Material Components Kit</h2>
     <p class="mk-section__description">SCSS toolkit for MDC-Web.</p>
     <p class="mk-section__actions">
       <a href="./getting-started/"

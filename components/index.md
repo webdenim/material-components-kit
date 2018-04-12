@@ -1,6 +1,6 @@
 ---
 title: Components
-description: Catalog of components available in Material Kit.
+description: Catalog of components available in Material Components Kit.
 layout: docs
 section: components
 date: 2017-10-19

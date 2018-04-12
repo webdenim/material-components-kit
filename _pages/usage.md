@@ -1,6 +1,6 @@
 ---
 title: Usage
-description: How to use Material Kit in your project.
+description: How to use Material Components Kit in your project.
 layout: docs
 section: getting-started
 date: 2017-10-25

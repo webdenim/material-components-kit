@@ -1,27 +1,26 @@
 ---
 title: Installation
-description: Install Material Kit and required build tools.
+description: Install Material Components Kit and required build tools.
 layout: docs
 section: getting-started
 date: 2017-10-25
 lastmod: 2017-11-06
 ---
 
-## Install Material Kit via npm
+## Install Material Components Kit via npm
 
-Material Kit is available on [npm](https://npmjs.com/@material-kit/lib). Material Kit includes
-MDC-Web as peer dependency so you don't need to install the parent library.
+Material Components Kit is available on [npm](https://npmjs.com/material-components-kit).
 
 ```bash
-npm install --save @material-kit/lib
+npm install --save material-components-kit
 ```
 
 ## Build tools (Webpack)
 
-_Material Kit and MDC-Web use SCSS for styling so we need to compile `.scss` files into CSS.
+_Material Components Kit and MDC-Web use SCSS for styling so we need to compile `.scss` files into CSS.
 We use [Webpack](https://webpack.js.org/) for that purpose because it has excellent features
 and comes with rich plugin system. Also, we assume that you will use Webpack for bundling MDC-Web's
-JavaScript. Although Material Kit doesn’t provide any JavaScript, it would be reasonable to
+JavaScript. Although Material Components Kit doesn’t provide any JavaScript, it would be reasonable to
 describe the bundling process._
 
 ### JavaScript bundle (MDC-Web)
@@ -106,7 +105,7 @@ Webpack can minify the output code with help of [plugins](https://webpack.js.org
 For JavaScript this can be done with `uglifyjs-webpack-plugin`. It comes with Webpack 3
 automatically so you don't need to install it.
 
-### Compile SCSS to CSS (Material Kit)
+### Compile SCSS to CSS (Material Components Kit)
 
 In Webpack the processing of CSS files can be done with help of specific
 [loaders](https://webpack.js.org/concepts/#loaders). SCSS additionally will require
@@ -171,7 +170,7 @@ module.exports = [{
 Below is the final Webpack config file. It also includes the serving HTML template file with
 `webpack-dev-server`.
 
-You can view the code on [GitHub](https://github.com/webdenimsamples/material-kit-vanillajs).
+You can view the code on [GitHub](https://github.com/webdenimsamples/material-components-kit-vanillajs).
 
 ```js
 const path = require('path')

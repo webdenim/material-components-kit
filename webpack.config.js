@@ -7,7 +7,7 @@ const CSS_FILENAME_OUTPUT_PATTERN = `[name].min.css`
 module.exports = [{
   name: 'css',
   entry: {
-    'material-kit': path.resolve('./material-kit.scss'),
+    'material-components-kit': path.resolve('./material-components-kit.scss'),
     'drawer': path.resolve('./components/drawer/drawer.scss'),
     'elevation': path.resolve('./components/elevation/elevation.scss'),
     'icon-box': path.resolve('./components/icon-box/icon-box.scss'),
