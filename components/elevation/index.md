@@ -19,6 +19,6 @@ $mk-elevation-ambient-color: rgba(67, 72, 77, .12);
 @import "material-components-kit/components/elevation/elevation";
 ```
 
-For the rest, elevation's usage in Material Components Kit is the same as in MDC-Web.
+For the rest, elevation's usage in Material Components Kit is the same as in MDC Web.
 
 [Learn more about MDC Elevation]({{ page.canonical }}).

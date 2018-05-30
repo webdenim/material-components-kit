@@ -62,7 +62,7 @@ which will add required margin-top.
 
 ## Set the light theme for toolbar
 
-By default, MDC-Web uses primary theme color for toolbar's background.
+By default, MDC Web uses primary theme color for toolbar's background.
 You can set the light theme for toolbar by adding `mdc-toolbar--theme-light`
 class to the toolbar row.
 

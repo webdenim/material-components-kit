@@ -17,13 +17,13 @@ npm install --save material-components-kit
 
 ## Build tools (Webpack)
 
-_Material Components Kit and MDC-Web use SCSS for styling so we need to compile `.scss` files into CSS.
+_Material Components Kit and MDC Web use SCSS for styling so we need to compile `.scss` files into CSS.
 We use [Webpack](https://webpack.js.org/) for that purpose because it has excellent features
-and comes with rich plugin system. Also, we assume that you will use Webpack for bundling MDC-Web's
+and comes with rich plugin system. Also, we assume that you will use Webpack for bundling MDC Web's
 JavaScript. Although Material Components Kit doesn’t provide any JavaScript, it would be reasonable to
 describe the bundling process._
 
-### JavaScript bundle (MDC-Web)
+### JavaScript bundle (MDC Web)
 
 Install Webpack
 

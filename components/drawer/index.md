@@ -8,6 +8,6 @@ lastmod: 2017-10-17
 canonical: https://material.io/components/web/catalog/drawers/
 ---
 
-Drawer's usage in Material Components Kit is the same as in MDC-Web.
+Drawer's usage in Material Components Kit is the same as in MDC Web.
 
 [Learn more about MDC Drawer]({{ page.canonical }}).

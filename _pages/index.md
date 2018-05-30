@@ -57,7 +57,7 @@ schema_types:
           Utility library for Material Components for the Web.
         </h2>
         <p class="mk-section__description">
-          Material Components Kit provides a set of Bootstrap-like utility classes for MDC-Web to simplify
+          Material Components Kit provides a set of Bootstrap-like utility classes for MDC Web to simplify
           front-end development.
         </p>
       </div>
@@ -69,7 +69,7 @@ schema_types:
           Useful Material Design components.
         </h2>
         <p class="mk-section__description">
-          Material Components Kit complements MDC-Web with components which are not presented in the parent
+          Material Components Kit complements MDC Web with components which are not presented in the parent
           library.
         </p>
       </div>
@@ -92,7 +92,7 @@ schema_types:
         </h2>
         <p class="mk-section__description">
           Material Components Kit is an SCSS library so it doesn't provide any JavaScript.
-          It's aimed to work with any JavaScript wrapper for MDC-Web.
+          It's aimed to work with any JavaScript wrapper for MDC Web.
         </p>
       </div>
     </div>
@@ -102,7 +102,7 @@ schema_types:
 <div class="mk-section mk-section--theme-dark mdc-theme--primary-bg mk-py--lg mk-ta--center">
   <div class="mdc-layout-grid">
     <h2 class="custom-font mk-section__title">Material Components Kit</h2>
-    <p class="mk-section__description">SCSS toolkit for MDC-Web.</p>
+    <p class="mk-section__description">SCSS toolkit for MDC Web.</p>
     <p class="mk-section__actions">
       <a href="./getting-started/"
          class="mdc-button mdc-theme--text-primary-on-primary mdc-theme--secondary-bg"

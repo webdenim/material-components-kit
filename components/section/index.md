@@ -17,7 +17,7 @@ be used for coloring background in theme palette or for adjusting the vertical p
 <div class="mk-section mk-ta--center mk-py--lg" style="background: #fff;">
   <div class="mdc-layout-grid">
     <h1 class="mk-section__title mk-section__title--large">Welcome to Material Components Kit</h1>
-    <p class="mk-section__description">SCSS toolkit for MDC-Web.</p>
+    <p class="mk-section__description">SCSS toolkit for MDC Web.</p>
     <p class="mk-section__actions">
       <button class="mdc-button mdc-button--unelevated">Get started</button>
       <button class="mdc-button">Learn more</button>
@@ -53,7 +53,7 @@ By default section doesn't include explicit padding except one's that comes from
 <div class="mk-section" style="background: #fff;">
   <div class="mdc-layout-grid">
     <h1 class="mk-section__title">Welcome to Material Components Kit</h1>
-    <p class="mk-section__description">SCSS toolkit for MDC-Web.</p>
+    <p class="mk-section__description">SCSS toolkit for MDC Web.</p>
     <p class="mk-section__actions">
       <button class="mdc-button mdc-button--unelevated">Get started</button>
       <button class="mdc-button">Learn more</button>
@@ -68,7 +68,7 @@ You can adjust the height of the section by adding [spacing utility classes](../
 <div class="mk-section mk-py--lg" style="background: #fff;">
   <div class="mdc-layout-grid">
     <h1 class="mk-section__title">Welcome to Material Components Kit</h1>
-    <p class="mk-section__description">SCSS toolkit for MDC-Web.</p>
+    <p class="mk-section__description">SCSS toolkit for MDC Web.</p>
     <p class="mk-section__actions">
       <button class="mdc-button mdc-button--unelevated">Get started</button>
       <button class="mdc-button">Learn more</button>
@@ -79,7 +79,7 @@ You can adjust the height of the section by adding [spacing utility classes](../
 <div class="mk-section mk-py--xl" style="background: #fff;">
   <div class="mdc-layout-grid">
     <h1 class="mk-section__title mk-section__title--large">Welcome to Material Components Kit</h1>
-    <p class="mk-section__description">SCSS toolkit for MDC-Web.</p>
+    <p class="mk-section__description">SCSS toolkit for MDC Web.</p>
     <p class="mk-section__actions">
       <button class="mdc-button mdc-button--unelevated">Get started</button>
       <button class="mdc-button">Learn more</button>
@@ -102,7 +102,7 @@ If your background is dark, add `mk-section--theme-dark` class.
 <div class="mk-section mk-section--theme-dark mdc-theme--primary-bg mk-py--md">
   <div class="mdc-layout-grid">
     <h1 class="mk-section__title">Welcome to Material Components Kit</h1>
-    <p class="mk-section__description">SCSS toolkit for MDC-Web.</p>
+    <p class="mk-section__description">SCSS toolkit for MDC Web.</p>
     <p class="mk-section__actions">
       <button class="mdc-button mdc-theme--text-primary-on-secondary mdc-theme--secondary-bg">Get started</button>
       <button class="mdc-button mdc-button--unelevated">Learn more</button>
@@ -121,7 +121,7 @@ You can align text in the section by adding [text utility classes](../utilities/
 <div class="mk-section mk-py--lg mk-ta--center" style="background: #fff;">
   <div class="mdc-layout-grid">
     <h1 class="mk-section__title">Welcome to Material Components Kit</h1>
-    <p class="mk-section__description">SCSS toolkit for MDC-Web.</p>
+    <p class="mk-section__description">SCSS toolkit for MDC Web.</p>
     <p class="mk-section__actions">
       <button class="mdc-button mdc-button--unelevated">Get started</button>
       <button class="mdc-button">Learn more</button>
