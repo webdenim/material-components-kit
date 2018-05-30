@@ -7,8 +7,8 @@ GIT
 
 GIT
   remote: https://gitlab.com/webdenim/jekyll-theme-webdenim.git
-  revision: b24bea2a062214604deafc436e5fb1c6cc95df78
-  tag: 0.2.6
+  revision: 6d6da3163229e4d6d4189e94e276ecdd2d848251
+  tag: 0.2.7
   specs:
     jekyll-theme-webdenim (0.0.0)
       jekyll (~> 3.6)
@@ -79,4 +79,4 @@ DEPENDENCIES
   jekyll-theme-webdenim!
 
 BUNDLED WITH
-   1.16.0
+   1.16.2
