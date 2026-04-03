@@ -52,9 +52,9 @@
     "parallelshell": "^3.0.2",
     "push-dir": "^0.4.1",
     "sass-loader": "^16.0.7",
-    "standard-version": "^4.2.0",
+    "standard-version": "^9.5.0",
     "stylelint-config-material-kit": "^1.0.0",
-    "webpack": "^3.8.1"
+    "webpack": "^5.105.4"
   },
   "dependencies": {
     "material-components-web": "^0.34.1",
